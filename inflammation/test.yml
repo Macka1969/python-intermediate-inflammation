@@ -1,0 +1,13 @@
+name: Kilimanjaro
+height_metres: 5892
+first_scaled_by: Hans Meyer
+
+first_scaled_by: [Hans Meyer, Ludwig Purtscheller]
+
+
+height:
+  value: 5892
+  unit: metres
+  measured:
+    year: 2008
+    by: Kilimanjaro 2008 Precise Height Measurement Expedition
