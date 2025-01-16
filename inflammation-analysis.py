@@ -7,15 +7,10 @@ from inflammation import models, views
 
 
 def main(args):
-    """The MVC Controller of the patient inflammation data system.
 
-    The Controller is responsible for:
-    - selecting the necessary models and views for the current task
-    - passing data between models and views
-    """
     InFiles = args.infiles
     if not isinstance(InFiles, list):
-        InFiles = [args.infiles]
+        InFiles=[args.infiles]
 
 
     for filename in InFiles:
